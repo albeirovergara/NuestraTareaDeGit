@@ -4,12 +4,14 @@
              x:Class="NuestraTareaDeGit.MainPage">
 
     <StackLayout>
-        <Button Text="primera pagina" Clicked="primera_pagina" 
-             />
 
-        <Button Text="Segunda Pagina" Clicked="segunda_pagina"/>
+        <Label Text="Nuestra Pagina en Git" FontSize="Title" FontAttributes="Bold" Padding="20" HorizontalOptions="Center"/>
 
+        <Button Text="Primera Pagina" Clicked="primera_pagina" Background="Black" BorderWidth="5"/>
 
+        <Button Text="Segunda Pagina" Clicked="segunda_pagina" Background="Black" BorderWidth="5"/>
+
+        
 
     </StackLayout>
 
